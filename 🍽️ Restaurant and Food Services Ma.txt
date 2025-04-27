@@ -1,0 +1,114 @@
+🍽️ Restaurant and Food Services Management System
+A comprehensive web-based system for efficient Online Food Ordering, Table Reservations, Inventory Management, and Customer Interaction. Built using PHP & MySQL, this platform enhances restaurant operations with dedicated modules for customers, staff, and admins.
+
+📌 Table of Contents
+Introduction
+
+Key Modules
+
+Technology Stack
+
+System Design
+
+Setup Instructions
+
+How to Run
+
+Admin Credentials
+
+Dependencies
+
+Demo
+
+Team Members
+
+
+🚀 Introduction
+This project is designed to streamline restaurant operations by integrating:
+
+Customer-facing services like online ordering, reservations, and feedback.
+
+Backend management for menus, orders, inventory, suppliers, and reporting.
+
+The system supports:
+
+Customers: Place orders, book tables, and provide feedback.
+
+Staff/Admins: Manage daily operations via a secure admin panel.
+
+🛠️ Key Modules
+2.1. User Registration & Authentication
+Secure login for staff and customers, with profile management.
+
+2.2. Menu Management
+Admins can add, update, and manage menu items, categories, and availability.
+
+2.3. Reservation Management
+Customers can book tables; staff can schedule and oversee reservations.
+
+2.4. Order Management
+Handles dine-in, takeaway, and delivery orders efficiently.
+
+2.5. Payment Processing
+
+2.6. Customer Feedback & Reviews
+Customers can submit feedback and rate their experiences.
+
+2.7. Inventory & Supplier Management
+Track stock levels and manage supplier relationships.
+
+2.9. Admin Panel
+Centralized control for managing all aspects of the restaurant operations.
+
+💻 Technology Stack
+Frontend: HTML5, CSS3, Bootstrap, JavaScript, jQuery, Ajax
+
+Backend: PHP (MySQLi Extension)
+
+Database: MySQL Server
+
+Local Server: XAMPP
+
+IDE: Visual Studio Code
+
+🏗️ System Design
+Database: Relational schema with enforced integrity (ERD-based design).
+
+Server: Hosted locally using XAMPP for development/testing.
+
+Folder Structure: Organized PHP files and assets for maintainability.
+
+Integration: PHP-MySQLi for dynamic content and CRUD operations.
+
+⚙️ Setup Instructions
+Install XAMPP and start Apache & MySQL services.
+
+Extract the project ZIP into htdocs directory.
+
+Open phpMyAdmin and:
+
+Create a database named:
+
+restaurant_website
+
+Import the provided restaurant_website.sql file.
+
+Open connect.php and verify database connection settings:
+
+$con = new PDO("mysql:host=localhost;dbname=restaurant_website", "root", "");
+
+Ensure folders like /Uploads have write permissions for image handling.
+
+▶️ How to Run
+Launch your browser and navigate to:
+
+
+http://localhost/your-folder/
+
+Access the Admin Panel:
+
+http://localhost/your-folder/admin/
+🔐 Admin Credentials
+Username: siva1
+Password: Admin@1234
+
